@@ -30,7 +30,7 @@ def chatbot_reply(user_msg):
         ]
         return "**CodeBot:** You are back at the main menu. How can I help you today?\n\nYou can ask about:\n- Internship Opportunities\n- Project Guidelines\n- Application Process\n- Certificates\n- Support / Contact Us"
 
-    if "internship" in msg or "internships" in msg or "opportunity" in msg:
+    if "internship" in msg or "Internship Opportunities" in msg or "opportunity" in msg:
         return (
             "**CodeBot:** **We offer internships in:**\n"
             "- 🌐Web Development\n"
