@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="CodeSoft AI Chatbot", layout="centered")
 
 st.title("🤖 CodeBot - CodeSoft Chatbot")
-st.markdown("Hi! I'm your CodeSoft Assistant. Ask me anything about internships, projects, or certification! 💡")
+st.markdown("Hi! I'm your CodeSoft Assistant. Ask me anything about internships, projects, or certification!")
 
 # Initialize chat history
 if "messages" not in st.session_state:
@@ -52,7 +52,7 @@ def chatbot_reply(user_msg):
             "- **Duration:** 1 or 2 months\n"
             "- **Mode:** 100% Online\n"
             "- **Benefits:** Certificate + LOR + Recognition 🎓\n\n"
-            "👉 [Apply Here](https://www.codsoft.in/)\n\n"
+            "[Apply Here](https://www.codsoft.in/)\n\n"
             "Feel free to ask about specific projects or details!\n\n"
             "🔙 Type 'main menu' to go back to the Main Menu."
         )
@@ -64,7 +64,7 @@ def chatbot_reply(user_msg):
             "- **Duration:** 1 or 2 months\n"
             "- **Mode:** 100% Online\n"
             "- **Benefits:** Certificate + LOR + Recognition 🎓\n\n"
-            "👉 [Apply Here](https://www.codsoft.in/)\n\n"
+            "[Apply Here](https://www.codsoft.in/)\n\n"
             "Feel free to ask about specific projects or details!\n\n"
             "🔙 Type 'main menu' to go back to the Main Menu."
         )
@@ -76,7 +76,7 @@ def chatbot_reply(user_msg):
             "- **Duration:** 1 or 2 months\n"
             "- **Mode:** 100% Online\n"
             "- **Benefits:** Certificate + LOR + Recognition 🎓\n\n"
-            "👉 [Apply Here](https://www.codsoft.in/)\n\n"
+            "[Apply Here](https://www.codsoft.in/)\n\n"
             "Feel free to ask about specific projects or details!\n\n"
             "🔙 Type 'main menu' to go back to the Main Menu."
         )
@@ -88,7 +88,7 @@ def chatbot_reply(user_msg):
             "- **Duration:** 1 or 2 months\n"
             "- **Mode:** 100% Online\n"
             "- **Benefits:** Certificate + LOR + Recognition 🎓\n\n"
-            "👉 [Apply Here](https://www.codsoft.in/)\n\n"
+            "[Apply Here](https://www.codsoft.in/)\n\n"
             "Feel free to ask about specific projects or details!\n\n"
             "🔙 Type 'main menu' to go back to the Main Menu."
         )
@@ -100,7 +100,7 @@ def chatbot_reply(user_msg):
             "- **Duration:** 1 or 2 months\n"
             "- **Mode:** 100% Online\n"
             "- **Benefits:** Certificate + LOR + Recognition 🎓\n\n"
-            "👉 [Apply Here](https://www.codsoft.in/)\n\n"
+            "[Apply Here](https://www.codsoft.in/)\n\n"
             "Feel free to ask about specific projects or details!\n\n"
             "🔙 Type 'main menu' to go back to the Main Menu."
         )
@@ -112,7 +112,7 @@ def chatbot_reply(user_msg):
             "- Duration: 1 or 2 months\n"
             "- Mode: 100% Online\n"
             "- Benefits: Certificate + LOR + Recognition 🎓\n\n"
-            "👉 [Apply Here](https://www.codsoft.in/)\n\n"
+            "[Apply Here](https://www.codsoft.in/)\n\n"
             "Feel free to ask about specific projects or details!\n\n"
             "🔙 Type 'main menu' to go back to the Main Menu."
         )
