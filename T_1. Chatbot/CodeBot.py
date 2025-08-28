@@ -56,7 +56,7 @@ def chatbot_reply(user_msg):
             "Feel free to ask about specific projects or details!\n\n"
             "🔙 Type 'main menu' to go back to the Main Menu."
         )
-    elif "app" in msg or "mobile" in msg:
+    elif ("app development" in msg) or ("mobile app" in msg) or (msg.strip() == "app"):
         return (
             "**CodeBot:** **Here are the details for the App Development Internship:**\n\n"
             "**Topics Covered:** Android, Flutter, React Native\n\n"
@@ -138,7 +138,7 @@ def chatbot_reply(user_msg):
             "- LinkedIn shoutouts for standout interns!\n\n"
             "🔙 Type 'main menu' to go back to the Main Menu."
         )
-    elif "apply" in msg or "Application Process" in msg:
+    elif "application process" in msg or "apply" in msg or "application" in msg:
         return (
             "**CodeBot:** **Application Steps:**\n"
             "1. Go to [codsoft.in](https://www.codsoft.in)\n"
